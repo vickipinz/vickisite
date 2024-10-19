@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+:root {
+  --blood: #ff007a;
+  --border: hsl(257, 46%, 32%);
+  --border2: hsl(257, 46%, 52%);
+}
+
+body {
+  background-color: #000;
+  background-image: url('/assets/images/textures/purpskybg.jpg');
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 87.5%;
+}
+
+h1,h2,h3 {
+  font-family: "Merriweather", Garamond, Georgia, serif;
+}
+h1 {
+  margin-top: 0;
+}
+h2 {
+  margin-top: 1em;
+}
+
+a {
+  color: #9379f0;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--blood);
+}
+a:active {
+  color: #fff;
+}
+
+#container {
+  background: #050112;
+  border: 1px solid hsl(257, 46%, 32%);
+  border-radius: 6px;
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+}
+
+header {
+  background-image: url('/assets/images/textures/sonic1.png');
+  background-size: 160%;
+  background-position-y: top;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  transition: 200ms;
+}
+
+nav {
+  background: linear-gradient(0deg,hsl(257, 49%, 14%),hsl(257, 49%, 4%));
+  /*box-shadow: inset 0 0px 6px 2px hsl(257, 49%, 20%);*/
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 20px;
+}
+
+nav, .nav-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  transition: 200ms;
+}
+
+nav a {
+  text-shadow: 0 0 4px #eb00ff,0 0 3px #fff,0 0 5px #ce61ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 8px;
+  background-color: hsl(257, 46%, 12%);
+  background-image: url('/assets/images/textures/visceradon1.jpg');
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  transition: 0.07s;
+}
+
+nav a:hover {
+  border-color: hsl(257, 46%, 52%);
+  color: #fff;
+  transition: 0.1s;
+}
+
+nav a:active {
+  /*border-color: var(--blood);*/
+  text-shadow: 0 0 6px #ff007a,0 0 5px #ff007a,0 0 5px #ff007a;
+  transition: 0.07s;
+}
+
+#pagetitle {
+
+}
+
+#avatar {
+  width: 180px;
+  height: 180px;
+  transition: 200ms;
+  border-radius: 500px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+footer img {
+  width: 88px;
+  height: 31px;
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.8em;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: 100ms;
+}
+.gallery figure {
+  margin: 0;
+  width: calc(95% / 3);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.gallery figcaption {
+  position: absolute;
+  bottom: 50%;
+  font-size: 1em;
+  opacity: 0;
+  font-family: "Merriweather", Garamond, Georgia, serif;
+  transition: opacity 100ms;
+}
+.gallery figcaption a {
+  padding: 0.5em;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.70);
+}
+.gallery figcaption a:hover {
+  color: #fff;
+  text-shadow: 0 0 6px #ff007a,0 0 5px #ff007a,0 0 5px #ff007a;
+}
+.gallery figure:hover img {
+  /*filter: blur(2px);*/
+  transition: 200ms;
+}
+.gallery figure:hover figcaption {
+  opacity: 100;
+  transition: opacity 200ms;
+}
+
+@media only screen and (min-width: 800px) {
+  .flex-right {
+    margin-left: auto;
+    transition: 200ms;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  nav, .nav-right {
+    justify-content: center;
+    transition: 200ms;
+  }
+  header {
+    align-items: center;
+    flex-direction: column;
+    transition: 200ms;
+  }
+  #pagetitle {
+    display: none;
+    transition: 200ms;
+  }
+  .gallery figure {
+    width: calc(98% / 2);
+    margin-bottom: 0.5em;
+    transition: 200ms;
+  }
+  .gallery figcaption {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .gallery figure {
+    width: 100%;
+    margin-bottom: 0.5em;
+    transition: 200ms;
+  }
+  .gallery figcaption {
+    font-size: 1.2em;
+  }
+}

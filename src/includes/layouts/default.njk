@@ -1,0 +1,32 @@
+---
+title: vicki website
+---
+
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ title }}</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" href="/assets/css/vicki.css" />
+	</head>
+	<body>
+		<div id="container">
+            <header>
+                <h1 id="pagetitle">Vickipinz</h1>
+                <img alt="circular avatar of my fursona, a grey fox girl with pink eyes and dark grey hair, over a red background" id="avatar" class="flex-right" src="/assets/images/avatar.png" />
+            </header>
+			<nav>
+                {% include "partials/nav.njk" %}
+            </nav>
+			<main>
+                {{ content | safe }}
+            </main>
+			<footer>
+				
+			</footer>
+		</div>
+	</body>
+</html>
