@@ -84,8 +84,8 @@ packages:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.13.0:
-    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -189,8 +189,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
   debug@2.6.9:
@@ -373,8 +373,9 @@ packages:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
-  gopd@1.0.1:
-    resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
+  gopd@1.1.0:
+    resolution: {integrity: sha512-FQoVQnqcdk4hVM4JN1eromaun4iuS34oStkdlLENLdpULsuQcTyXj8w7ayhuUfPwEYZ1ZOooOTT6fdA9Vmx/RA==}
+    engines: {node: '>= 0.4'}
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
@@ -386,12 +387,12 @@ packages:
   has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
 
-  has-proto@1.0.3:
-    resolution: {integrity: sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==}
+  has-proto@1.1.0:
+    resolution: {integrity: sha512-QLdzI9IIO1Jg7f9GT1gXpPpXArAn6cS31R1eEZqz08Gc+uQ8/XiqHWt17Fiw+2p6oTTIq5GXEpQkAlA88YRl/Q==}
     engines: {node: '>= 0.4'}
 
-  has-symbols@1.0.3:
-    resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
+  has-symbols@1.1.0:
+    resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
     engines: {node: '>= 0.4'}
 
   hasown@2.0.2:
@@ -481,8 +482,8 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
-  liquidjs@10.18.0:
-    resolution: {integrity: sha512-gCJPmpmZ3oi2rMMHo/c+bW1LaRF+ZAKYTWQmKXPp0uK9EkWMFRmgbk3+Io4LSJGAOnpCZSgHJbNzcygx3kfAAQ==}
+  liquidjs@10.19.0:
+    resolution: {integrity: sha512-dNINmbNJ/bp3B8n25BtZQV/GbrmFf0o2InGdMdfQXa+LxfzTFXOkUnBsOLZUb82sLzxaiWv5Jc381Kn4zHjTsQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -786,7 +787,7 @@ snapshots:
   '@11ty/dependency-tree-esm@1.0.0':
     dependencies:
       '@11ty/eleventy-utils': 1.0.3
-      acorn: 8.13.0
+      acorn: 8.14.0
       dependency-graph: 0.11.0
       normalize-path: 3.0.0
 
@@ -840,7 +841,7 @@ snapshots:
       bcp-47-normalize: 2.3.0
       chardet: 2.0.0
       chokidar: 3.6.0
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       debug: 4.3.7
       dependency-graph: 1.0.0
       entities: 5.0.0
@@ -852,7 +853,7 @@ snapshots:
       iso-639-1: 3.1.3
       js-yaml: 4.1.0
       kleur: 4.1.5
-      liquidjs: 10.18.0
+      liquidjs: 10.19.0
       luxon: 3.5.0
       markdown-it: 14.1.0
       micromatch: 4.0.8
@@ -930,9 +931,9 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.13.0
+      acorn: 8.14.0
 
-  acorn@8.13.0: {}
+  acorn@8.14.0: {}
 
   ansi-regex@5.0.1: {}
 
@@ -1031,7 +1032,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  cross-spawn@7.0.3:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -1049,7 +1050,7 @@ snapshots:
     dependencies:
       es-define-property: 1.0.0
       es-errors: 1.3.0
-      gopd: 1.0.1
+      gopd: 1.1.0
 
   define-properties@1.2.1:
     dependencies:
@@ -1123,7 +1124,7 @@ snapshots:
 
   esm-import-transformer@3.0.2:
     dependencies:
-      acorn: 8.13.0
+      acorn: 8.14.0
 
   esprima@4.0.1: {}
 
@@ -1167,7 +1168,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
   fresh@0.5.2: {}
@@ -1181,8 +1182,8 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
-      has-proto: 1.0.3
-      has-symbols: 1.0.3
+      has-proto: 1.1.0
+      has-symbols: 1.1.0
       hasown: 2.0.2
 
   glob-parent@5.1.2:
@@ -1198,7 +1199,7 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  gopd@1.0.1:
+  gopd@1.1.0:
     dependencies:
       get-intrinsic: 1.2.4
 
@@ -1215,9 +1216,11 @@ snapshots:
     dependencies:
       es-define-property: 1.0.0
 
-  has-proto@1.0.3: {}
+  has-proto@1.1.0:
+    dependencies:
+      call-bind: 1.0.7
 
-  has-symbols@1.0.3: {}
+  has-symbols@1.1.0: {}
 
   hasown@2.0.2:
     dependencies:
@@ -1298,7 +1301,7 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  liquidjs@10.18.0:
+  liquidjs@10.19.0:
     dependencies:
       commander: 10.0.1
 
@@ -1361,7 +1364,7 @@ snapshots:
 
   node-retrieve-globals@6.0.0:
     dependencies:
-      acorn: 8.13.0
+      acorn: 8.14.0
       acorn-walk: 8.3.4
       esm-import-transformer: 3.0.2
 
@@ -1484,7 +1487,7 @@ snapshots:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      gopd: 1.0.1
+      gopd: 1.1.0
       has-property-descriptors: 1.0.2
 
   setprototypeof@1.2.0: {}
