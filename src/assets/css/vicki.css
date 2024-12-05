@@ -43,6 +43,10 @@ a:active {
   color: #fff;
 }
 
+p {
+  line-height: 1.5em;
+}
+
 ul {
   padding-left: 1em;
 }
